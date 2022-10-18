@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="test.js"></script>
+    <title>Rock Paper Scissors</title>
+</head>
+
+<style>
+    H2
+    {
+      color: red;  
+    }
+
+    img.rock
+    {
+        opacity: 1;
+    }
+
+    img.paper
+    {
+        opacity: 1;
+    }
+
+    img.scissors
+    {
+        opacity: 1;
+    }
+
+    img.win
+    {
+        opacity: 0;
+    }
+
+    img.draw
+    {
+        opacity: 0;
+    }
+
+    img.lose
+    {
+        opacity: 0;
+    }
+
+    img.cRock
+    {
+        opacity: 1;
+    }
+
+    img.cPaper
+    {
+        opacity: 1;
+    }
+
+    img.cScissors
+    {
+        opacity: 1;
+    }
+</style>
+
+<body>
+    <H2>Lets play Rock Paper Scissors!</H2>
+   
+    <img class="rock" id="Rock" src="https://th.bing.com/th/id/R.dd7f17334ce50990e5b5dc44c75f5b0f?rik=zRngV8SyepTQlw&riu=http%3a%2f%2fweknowyourdreams.com%2fimages%2frock%2frock-05.jpg&ehk=7yEFVg2tg1f2xC2JzoLLvH3lvqAdb%2fdIZIlInQNuuBs%3d&risl=&pid=ImgRaw&r=0" alt="Rock" width="250" height="250">
+    <button onClick="RPS(1)">Rock</button>
+
+    <img class="paper" id="Paper" src="https://th.bing.com/th/id/OIP.trDnBmXpL_SAl5HW5EeizwHaFn?pid=ImgDet&rs=1" alt="Rock" width="250" height="250">
+    <button onClick="RPS(2)">Paper</button>
+
+    <img class="scissors" id="Scissors" src="https://www.janitorialdirect.co.uk/media/product/398/5-star-school-scissors-130mm-red-b61.jpg" alt="Rock" width="250" height="250">
+    <button onClick="RPS(3)">Scissors</button>
+
+    <p></p>
+
+    <img class="win" id="win" src="https://as1.ftcdn.net/jpg/01/26/19/64/500_F_126196402_7cb3JwprEa9BxnCCS8l4EuyUgGrVPBiN.jpg" alt="Rock" width="250" height="250">
+
+    <img class="draw" id="draw" src="https://2.bp.blogspot.com/-zAiC1aZzFlk/TxbT3-AdP5I/AAAAAAAAAh4/oATJBcCgrXI/s1600/Vintage+ties+by+JAIDEN+2.jpg" alt="Rock" width="250" height="250">
+
+    <img class="lose" id="lose" src="https://thumbs.dreamstime.com/b/you-lose-rubber-stamp-you-lose-rubber-stamp-grunge-design-dust-scratches-effects-can-be-easily-removed-clean-crisp-look-110063315.jpg" alt="Rock" width="250" height="250">
+
+    <p></p>
+
+    <img class="cRock" id="computerRock" src="https://th.bing.com/th/id/R.dd7f17334ce50990e5b5dc44c75f5b0f?rik=zRngV8SyepTQlw&riu=http%3a%2f%2fweknowyourdreams.com%2fimages%2frock%2frock-05.jpg&ehk=7yEFVg2tg1f2xC2JzoLLvH3lvqAdb%2fdIZIlInQNuuBs%3d&risl=&pid=ImgRaw&r=0" alt="Rock" width="250" height="250">
+
+    <img class="cPaper" id="computerPaper" src="https://th.bing.com/th/id/OIP.trDnBmXpL_SAl5HW5EeizwHaFn?pid=ImgDet&rs=1" alt="Rock" width="250" height="250">
+    
+    <img class="cScissors" id="computerScissors" src="https://www.janitorialdirect.co.uk/media/product/398/5-star-school-scissors-130mm-red-b61.jpg" alt="Rock" width="250" height="250">
+
+</body>
+</html>
